@@ -1,6 +1,6 @@
 /*!
- *  Zoom Clone
- *   (c) 2020 Ruben Lima
+ *  ETC Classroom
+ *   (c) 2022 Ruben Lima
  */
 
 const express = require("express");
@@ -14,8 +14,8 @@ const peerServer = ExpressPeerServer(server, {
 });
 
 app.set("view engine", "ejs");
-// app.use(express.static("public"));
-app.use("/public", express.static("public")); // rmal
+app.use(express.static("public"));
+// app.use("/public", express.static("public")); // rmal
 
 app.use("/peerjs", peerServer);
 app.get("/", (request, response) => {

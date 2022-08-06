@@ -1,6 +1,6 @@
 /*!
- *  Zoom Clone
- *  (c) 2020 Ruben Lima
+ *  ETC Classroom
+ *  (c) 2022 Ruben Lima
  */
 
 const socket = io("/");
