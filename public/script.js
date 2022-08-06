@@ -9,12 +9,12 @@ const myVideo = document.createElement("video");
 
 myVideo.muted = true;
 
-// var peer = new Peer(undefined, {
-//   path: "/peerjs",
-//   host: "/",
-//   port: "443",
-// });
-const peer = new Peer(); // rmal
+let peer = new Peer(undefined, {
+  path: "/peerjs",
+  host: "/",
+  port: "3333" || "443",
+});
+// const peer = new Peer(); // rmal
 
 const peers = {};
 
