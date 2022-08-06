@@ -12,7 +12,8 @@ myVideo.muted = true;
 let peer = new Peer(undefined, {
   path: "/peerjs",
   host: "/",
-  port: "3333" || "443",
+  // port: "3333" || "443",
+  port: "443",
 });
 // const peer = new Peer(); // rmal
 
